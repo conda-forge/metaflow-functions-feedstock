@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.7"
+  version: "0.2.11"
 
 package:
   name: metaflow-functions
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/metaflow-functions/metaflow_functions-${{ version }}.tar.gz
-  sha256: a0cdf9d37a513ca3060fe4a427df07cdbf1deb900fe82e78ca1f1b97cc23f5a8
+  sha256: 118d7adcd681025b22c7b4d2c16e9b472d6d284414c73cda79caa474663e8fb1
 
 build:
   noarch: python
